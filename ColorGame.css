@@ -1,0 +1,62 @@
+body {
+  background: #232323;
+  margin: 0;
+  font-family: "Segoe UI";
+  font-weight: normal;
+}
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: all 0.6s;
+}
+#container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+h1 {
+  color: white;
+  line-height: 1.1;
+  padding: 20px 0;
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+.selected {
+  color: white;
+  background-color: steelblue;
+}
+#colorDisplay {
+  font-size: 65px;
+}
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.9s;
+  outline: none;
+}
+#message {
+  display: inline-block;
+  width: 20%;
+}
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
