@@ -1,4 +1,4 @@
-var numSquare = 6;
+Kiovar numSquare = 6;
 var colours = [];
 var pickedColor;
 var squares = document.querySelectorAll(".square");
